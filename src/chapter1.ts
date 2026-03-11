@@ -16,3 +16,10 @@ let str4 : string = `hello world ${num1}`;
 let null1 : null = null;
 
 let undefined1 : undefined = undefined;
+
+// 리터럴 타입
+let numA: 10 = 10;
+
+let strA: "hello" = "hello";
+
+let boolA: true = true;
