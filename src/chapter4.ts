@@ -34,7 +34,7 @@ let countryCode: CountryCode = {
 // 국가 번호 (string → number)
 type CountryNumberCodes = {
   [key: string]: number;
-  korea: number; // 인덱스 시그니처와 함께 특정 프로퍼티를 정의할 수도 있음
+  Korea?: number; // 인덱스 시그니처와 함께 특정 프로퍼티를 정의할 수도 있음 (선택적 프로퍼티)
 };
 
 let countryNumberCodes: CountryNumberCodes = {
